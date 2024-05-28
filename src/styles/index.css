@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: Manrope; */
+}
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+  scrollbar-color: #747EEF transparent;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+ul {
+  margin: 0;
+  margin-inline: unset !important;
+  padding: 0;
+  list-style: none;
+}
+input {
+  background-color: transparent;
+  width: 100%;
+}
+input::placeholder{
+  color: white;
+} 
+input:focus {
+  outline: none;
+}

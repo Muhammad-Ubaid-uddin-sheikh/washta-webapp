@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Light dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    /* height: 46vh; */
+  }
+  
+  .popup input {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: left;
+    border: none;
+    color: black;
+    padding: 9px 0px;
+    border-bottom: 1px solid #c3c3c3;
+    font-family: 'General Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .popup h2 {
+    margin-bottom: 20px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .popup input::placeholder{
+    color: #c3c3c3;
+    font-weight: 400;
+  }
+  .popup input:focus{
+    border-bottom: 1.5px solid black;
+  }
+  .popup label{
+    font-size: 15px;
+    font-family:monospace;
+    font-weight: 400;
+  }
+  .btn-left{
+    padding: 5px;
+    border: 1px solid black;
+    color: black;
+    font-family: 'General Sans', sans-serif;
+    background-color: transparent;
+    font-size:14;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 200px;
+  }
+  .btn-right{
+    padding: 5px;
+    border: 1px solid #747EEF;
+    color: white;
+    font-family: 'General Sans', sans-serif;
+    background-color: #747EEF;
+    font-size:14;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 200px;
+  }
+  .row-poup{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  .progress-bar-container {
+    width: 50%;
+    margin-top: 20px;
+    background-color: black;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: green;
+  }
+  label{
+    font-family: "Manrope", sans-serif;
+  }
+  @media (max-width:768px) {
+    .popup{
+      width: 90%;
+    }
+    .btn-left ,.btn-right{
+      width: 50%;
+    }.row-poup {
+      gap: 25px;
+    }.popup{
+      height: auto;
+    }.md\:flex-col{
+      flex-direction: column-reverse;
+    }
+
+  }
