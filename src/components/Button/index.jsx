@@ -26,7 +26,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`${className} flex flex-row items-center justify-center text-center cursor-pointer text-white-A700 text-2xl font-medium bg-indigo-300 shadow-xs rounded-[30px] ${(shape && shapes[shape]) || ""} ${(size && sizes[size]) || ""} ${(variant && variants[variant]?.[color]) || ""}`}
+      className={`${className}  flex flex-row items-center justify-center text-center cursor-pointer text-white-A700 text-2xl font-medium bg-indigo-300 shadow-xs rounded-[30px] ${(shape && shapes[shape]) || ""} ${(size && sizes[size]) || ""} ${(variant && variants[variant]?.[color]) || ""}`}
       {...restProps}
     >
       {!!leftIcon && leftIcon}

@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div style={{ height: "100vh", padding: "20px", backgroundColor: "#232323", color: "white" }}>
       <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>Homepage</h1>

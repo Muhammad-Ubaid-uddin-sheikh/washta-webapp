@@ -3,6 +3,8 @@ import { Text, Input, Img } from "./..";
 import axios from 'axios';
 import { Link } from "react-router-dom";
 import './footer.css'
+import { NavLink } from "react-router-dom";
+import Footerimg from '../../assets/images/image 1.png'
 export default function Footer({ ...props }) {
   const [userEmail, setuserEmail] = useState('');
   const [response, setResponse] = useState(null);
@@ -43,11 +45,11 @@ console.log('userEmail',userEmail)
     }
   };
   return (
-    <footer {...props}>
+    <footer style={{background:'#747EEF',paddingTop:'25px',paddingBottom:'25px'}} {...props}>
       <div className="container-xs flex flex-col gap-[84px] md:gap-[63px] md:p-5 sm:gap-[42px]" style={{width:'90%'}}>
         <div className="flex items-start justify-between gap-5 md:flex-col">
           <div className="flex w-[28%] flex-col gap-5 md:w-full">
-            <Img src="images/img_footer_logo.svg" alt="footerlogo" className="h-[50px] w-[210px]" />
+            <img src={Footerimg} alt="footerlogo" className="w-[210px]" />
             <Text size="20px" as="p" >
               If you don&#39;t find an answer to your question, contact us, and our team will get in touch with you.
             </Text>
@@ -102,7 +104,7 @@ console.log('userEmail',userEmail)
           <ul className="flex flex-wrap items-center gap-[25px]">
             <li>
             <p className="paragraphp lipara">
-            Privacy Policy
+            <NavLink to='/PrivacyPolicy'> Privacy Policy </NavLink> 
               </p>
               {/* <a href="#" className="self-end">
                 <Text size="20px" as="p">Privacy Policy</Text>
