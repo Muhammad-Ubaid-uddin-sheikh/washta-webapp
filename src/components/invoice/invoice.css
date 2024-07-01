@@ -1,0 +1,40 @@
+.main-invoice-div{
+    background-color: #f7f7f7;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 1px solid #747eef;
+}
+.row-invoice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-text-image-immer-text{
+    padding-left: 10px;
+}
+.h5-heaidng-invouice{
+    font-family: "Manrope", sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.btn-both{
+    display: flex;
+    gap: 10px;
+}
+.first-colm-notification-com{
+    display: flex;
+    width: 85%;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+.paragraph-notifcation{
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    color: #3F3F3F;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+.second-colm-notification-com{
+    width: 15%;
+    text-align: end;        
+}

@@ -1,0 +1,35 @@
+.label-popup-seller{
+    /* font-family: "Manrope", sans-serif; */
+    font-weight: 500;
+    font-size: 16px;
+}
+.label-popup-seller input::placeholder{
+    color: #c3c3c3;
+    font-weight: 400;
+    font-size: 16px;
+  }
+.gapmargin input::placeholder{
+    color: #c3c3c3;
+    font-weight: 400;
+    font-size: 16px;
+  }
+.timing-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    gap: 26px;
+  }
+  :where(.css-dev-only-do-not-override-m4timi).ant-picker-outlined.ant-picker-disabled input[disabledenabled]{
+    margin-bottom: 0px !important;
+  }
+  :where(.css-dev-only-do-not-override-m4timi).ant-picker .ant-picker-input >input{
+    margin-bottom: 0px !important;
+    font-size: 12px;
+  }
+  :where(.css-dev-only-do-not-override-m4timi).ant-picker .ant-picker-input >input::placeholder{
+    font-size: 12px;
+  }
+  .row-poup{
+    margin-top: 1em;
+  }

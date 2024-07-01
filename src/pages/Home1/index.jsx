@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Button, Text, Img } from "../../components";
 import Footer from "../../components/Footer";
@@ -18,6 +18,9 @@ export default function Home1Page() {
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>

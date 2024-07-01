@@ -1,0 +1,40 @@
+.text-heading-toggle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-top: 1em;
+    padding-right: 10px;
+}
+.div-sellar-shop{
+    background-color: white;
+    padding: 20px 22px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px 0px #afafaf;
+}
+.seller-shop{
+    font-family: General Sans!important;
+    color: black;
+    font-weight: 450;
+    font-size: 21px;
+    padding-top: 0.8em;
+}
+.paragraph-text-shop{
+    color: #3F3F3F;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.icon-patagraph{
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.icon-div-row{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 0.2em;
+}

@@ -1,0 +1,41 @@
+.btn-paragrph{
+    font-family: General Sans!important;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.btn-button-dashboard{
+    border: 1px solid;
+    border-radius: 12px;
+}
+.btn-button-dashboard {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  }
+  
+  .btn-button-dashboard .btn-paragraph {
+    margin: 0;
+    font-size: 16px;
+    font-family: General Sans!important;
+  }
+  
+  .btn-purple {
+    background-color: #747EEF;
+    border: 1px solid #747EEF;
+    color: white;
+  }
+  
+  .btn-transparent {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+  
+  .btn-purple:hover, .btn-transparent:hover {
+    opacity: 0.8;
+  }
+  

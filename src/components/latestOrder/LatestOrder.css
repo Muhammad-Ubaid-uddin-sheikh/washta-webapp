@@ -1,0 +1,79 @@
+.latestOrder{
+    background-color: #f7f7f7;
+    padding: 12px 18px;
+    border-radius: 6px;
+    border: 1px solid #747eef;
+    
+}
+.main-div-latest-order{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.div-order-inner{
+    width: 33.33%;
+}
+.paragph-heading{
+    color: #3F3F3F;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    padding: 0;
+}
+.heading-h5-later{
+    font-family: General Sans!important;
+    font-size: 1em;
+    font-weight: 500;
+}
+.div-btn-button{
+    background: white;
+    border-radius: 5px;
+    border-color: #FF9900;
+    border-width: 1px;
+    color: #FF9900;
+   
+}
+.btn-main-later{
+    font-family: General Sans!important;
+    color: #FF9900;
+    font-size: 0.6em;
+    padding: 2px 10px;
+    padding-bottom: 6px;
+    background-color: white;  
+}
+.img-text-dashbaord{
+    width: 100%;
+
+}
+.row-dashbaoard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-img-col{
+    width: 20%;
+}
+.second-img-col{
+    width: 80%;
+    padding-left: 10px;
+}
+.div-main-dashbaord-et{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 18px 12px;
+    border-radius: 11px;
+    margin-top: 0.7em;
+    box-shadow: 0px 0px 2px 0px #afafaf;
+}
+.h4-dashbaord-text{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.paragrah-text{
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}

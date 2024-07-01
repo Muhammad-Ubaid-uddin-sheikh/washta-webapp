@@ -1,6 +1,6 @@
 import Footer from 'components/Footer'
 import Header from 'pages/Home1/Header'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Become.css'
 import ImgSingin from '../../assets/images/singup.png'
 import Overly from '../../assets/images/overly.png'
@@ -9,6 +9,9 @@ import { Button } from 'components'
 import OTPComponent from './Otp'; // Import your OTP component here
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [formData, setFormData] = useState({
     name: '',
     email: '',

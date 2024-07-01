@@ -7,13 +7,14 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 100vh;
+    height: 53em;
     width: 95%;
     margin: auto;
 }
 .overlyClassName{
     position: absolute;
     z-index: -1;
+    top: 0;
 
 }
 .add{padding:80px;}
@@ -130,7 +131,9 @@
     }
   }
   .addbussiness-detsilsx{
-    width: 40%;
+    width: 60%;
     margin: auto;
+    /* margin-top: 10em;
+    margin-bottom: 5em; */
   }
   

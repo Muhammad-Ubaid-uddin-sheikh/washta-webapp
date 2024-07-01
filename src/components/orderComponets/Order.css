@@ -1,0 +1,44 @@
+.order-componet{
+    background-color: #f7f7f7;
+    padding: 14px 15px;
+    border-radius: 10px;
+    border: 1px solid #747eef;
+    /* width: 33%; */
+    width: 100%;
+}
+.div-order-active{
+    width: 80%;
+    display: flex;
+}
+.timer{
+   width: 20%;
+   text-align: end;
+}
+.h5-heaidng-order{
+    font-family: General Sans!important;
+    font-size: 17px;
+    font-weight: 500;
+}
+.paragph-heading{
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.div-row-order-staus{
+    display: flex;
+    align-items: center;
+
+}
+.adding-left-padding{
+    padding: 10px 7px !important; 
+}
+.paragph-heading-text{
+    font-family: General Sans!important;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    padding-top: 3px;
+}
+.adding-margin{
+    margin-top: 10px !important;
+}

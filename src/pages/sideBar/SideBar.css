@@ -1,68 +1,98 @@
-  
-  .active-link {
-    color: red;
+.active-link {
+  color: white;
+  background-color: #747EEF;
+  font-family: General Sans !important;
+  display: flex;
+  align-items: center;
+  padding: 10px 7px;
+  border-radius: 5px;
+  gap: 8px;
+  font-weight: 500;
+
+} 
+.navlinkLinkatag{
+  color: black;
+  font-family: General Sans!important;
+  display: flex;
+  align-items: center;
+  padding: 10px 7px;
+  border-radius: 5px;
+  gap: 8px;
+  font-weight: 500;  }   
+.navlinkLinkatagnew{
+  padding-left: 20px !important;
+}
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.ul-list-bottom{
+  margin-Top: 10em;
+}
+.logo {
+  display: block;
+  padding: 0.5em 1.3em;
+  text-align: center;
+}
+.navbar-sidebar{
+  padding-left: 1.3em;
+  padding-top: 1em;
+}
+.sideba{
+  position: fixed;
+  width: 16%;
+}
+.li-navbar{
+  width: 12em;
+}
+/* .sidebar{
+  width: 15em;
+  position: fixed;
+} */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
   }
-  
+
+  .sidebar {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1000;
+    background-color: #f0f0f0;
+    transition: left 0.3s ease;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
   .menu-icon {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
-  
-  .logo {
     display: block;
-    padding: 0.5em 1.3em;
-    text-align: center;
   }
-  .navbar-sidebar{
-    padding-left: 1.3em;
-    padding-top: 1em;
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
   }
-  
-  @media (max-width: 768px) {
-    .app {
-      flex-direction: column;
-    }
-  
-    .sidebar {
-      width: 70%;
-      height: 100%;
-      position: fixed;
-      top: 0;
-      left: -100%;
-      z-index: 1000;
-      background-color: #f0f0f0;
-      transition: left 0.3s ease;
-    }
-  
-    .sidebar.open {
-      left: 0;
-    }
-  
-    .content {
-      width: 100%;
-    }
-  
-    .menu-icon {
-      display: block;
-    }
-  
-    .overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      z-index: 999;
-    }
-  
-    .overlay.open {
-      display: block;
-    }
+
+  .overlay.open {
+    display: block;
   }
-  
+}

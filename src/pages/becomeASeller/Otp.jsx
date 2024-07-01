@@ -1,6 +1,6 @@
 // OTPComponent.js
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './Become.css';
 import { Button } from 'components';
 import { useNavigate } from 'react-router-dom';
@@ -10,6 +10,9 @@ const OTPComponent = ({ onSubmit }) => {
   const otpBoxes = Array.from({ length: 4 }, (_, index) => index);
   const inputRefs = useRef([]);
   const navigation = useNavigate()
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 console.log(otp)
   const handleChange = (index, value) => {
     if (/^\d*$/.test(value) && value.length <= 1) {
